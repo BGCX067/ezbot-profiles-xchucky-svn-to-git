@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<EzQuestProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" creator="xChucky" version="1.0">
+  <Name>[Human] WalkTo SW [ - fly]</Name>
+  <MinLevel>1</MinLevel>
+  <MaxLevel>90</MaxLevel>
+  <MinDurability>0</MinDurability>
+  <MinFreeBagSlots>0</MinFreeBagSlots>
+  <SubProfile>
+    <Vendors />
+    <Mailboxes />
+    <Blackspots />
+    <AvoidMobs />
+    <Action xsi:type="ActionPack" Name="walk" DoActionsIsSequence="true">
+      <Action xsi:type="GoTo" CalculatePath="false">
+        <Hotspots>
+          <Hotspot X="-8935.746" Y="-113.949707" Z="82.49637" />
+          <Hotspot X="-8970.501" Y="-109.9134" Z="84.45734" />
+          <Hotspot X="-9003.85449" Y="-84.78671" Z="86.21544" />
+          <Hotspot X="-9040.905" Y="-100.205406" Z="87.87413" />
+          <Hotspot X="-9049.412" Y="-84.5536652" Z="88.1128159" />
+          <Hotspot X="-9047.604" Y="-46.4057541" Z="88.31368" />
+          <Hotspot X="-9069.205" Y="-43.4064255" Z="88.02078" />
+          <Hotspot X="-9166.878" Y="-113.970673" Z="72.2879944" />
+          <Hotspot X="-9228.716" Y="-104.945648" Z="71.08038" />
+          <Hotspot X="-9292.096" Y="-60.8366241" Z="67.51112" />
+          <Hotspot X="-9343.895" Y="-47.4399643" Z="65.324" />
+          <Hotspot X="-9439.68" Y="58.40173" Z="56.0909" />
+          <Hotspot X="-9432.599" Y="79.0728" Z="56.41599" />
+          <Hotspot X="-9252.666" Y="160.135742" Z="67.80111" />
+          <Hotspot X="-9183.727" Y="246.8251" Z="73.23283" />
+          <Hotspot X="-9179.766" Y="291.588226" Z="77.1049" />
+          <Hotspot X="-9176.427" Y="328.2933" Z="81.7189" />
+          <Hotspot X="-9158.244" Y="359.472534" Z="89.2583" />
+          <Hotspot X="-9100.496" Y="405.994965" Z="92.61188" />
+          <Hotspot X="-8957.419" Y="520.278137" Z="96.3554153" />
+          <Hotspot X="-8970.018" Y="554.854553" Z="93.96883" />
+          <Hotspot X="-8949.969" Y="562.209656" Z="93.8164139" />
+          <Hotspot X="-8931.631" Y="543.203" Z="94.67654" />
+          <Hotspot X="-8836.945" Y="614.7911" Z="93.35669" />
+          <Hotspot X="-8846.934" Y="644.7704" Z="96.53919" />
+          <Hotspot X="-8836.257" Y="651.2979" Z="98.0270157" />
+          <Hotspot X="-8823.543" Y="656.3013" Z="98.02453" />
+        </Hotspots>
+      </Action>
+      <Action xsi:type="UserDialog" QuestId="0" Message="Congratulations. You are there! Stop the bot please." />
+    </Action>
+    <Name>Walk To SW</Name>
+    <MinLevel>1</MinLevel>
+    <MaxLevel>90</MaxLevel>
+    <Mandatory>true</Mandatory>
+    <JumpToNextProfileASAP>false</JumpToNextProfileASAP>
+  </SubProfile>
+</EzQuestProfile>
